@@ -20,7 +20,8 @@
 
 # Branch
 - What is Branching?
-    - Unlike other VCS, Git has a lightweight method of creating a branch.
+    - Unlike other VCS which could be a heavy process to create a branch, Git has a lightweight method when it comes to branching. By creating a branch, you are creating a non static pointer to one of the commits.
+    - The main purpose of branching is to work separately from the main development branch such as **main/master**.
 
 ## create
 
