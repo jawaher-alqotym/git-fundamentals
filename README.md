@@ -78,7 +78,7 @@ Another useful command is `$ git log --graph`  it shows the branch and merge his
 
 ## Git Diff
 
-Another command for reading the history is `$ git log diff`  it is used to see the difference between your working tree and your staging area when you want to know exactly what has been changed inside the files it shows the exact lines added and removed.
+Another command for reading the history is `$ git diff`  it is used to see the difference between your working tree and your staging area when you want to know exactly what has been changed inside the files it shows the exact lines added and removed.
 
 
 
