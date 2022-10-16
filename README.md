@@ -25,11 +25,18 @@
 
 ## create
 - A new movable pointer (branch) can be created by using **git branch** command:
-`$ git branch B`
+`$ git branch B`\
 by doing so, a branch named **B** has been created.
 
-## switch
 ### Head 
+- it is a special pointer to know the active branch you are working with.
+    Note: creating a new branch doesn't mean that the head is pointing to the new branch. A switch is needed to change where the head is pointing. 
+
+## switch
+- To switch to the previously created branch **B**, the command **git checkout** is used:
+`$ git checkout B`\
+- by doing so, now the active branch is **B**. 
+
 
 ## delete
 ## rename 
