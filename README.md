@@ -10,7 +10,7 @@ Files in Git can be in one of three following states: WT (working tree), staging
 
 ### 1) WT
 
-In this stage, you can do whatever you need to the files that exist in the project folder directory. Think of it as the working space where you create, edit, and delete files/file's content and folders.</br>If you need to view the differences between the working tree and the indexed file (files that wore moved to the next stage ). Git provides you with the command [git status](https://github.com/jawaher-alqotym/git-fundamentals/section-A/README.md#git-status).
+In this stage, you can do whatever you need to the files that exist in the project folder directory. Think of it as the working space where you create, edit, and delete files/file's content and folders.</br>If you need to view the differences between the working tree and the indexed file (files that wore moved to the next stage ). Git provides you with the command [git status](https://github.com/jawaher-alqotym/git-fundamentals/blob/section-A/README.md#git-status).
 
 ### 2) Staging: Git Add
 
