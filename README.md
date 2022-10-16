@@ -24,11 +24,15 @@
     - The main purpose of branching is to work separately from the main development branch such as **main/master**.
 
 ## create
+- A new movable pointer (branch) can be created by using **git branch** command:
+`$ git branch B`
+by doing so, a branch named **B** has been created.
 
 ## switch
 ### Head 
 
-## delete, rename 
+## delete
+## rename 
 
 # reading the git history
 ## git log, git log oneline, git log oneline graph, git diff
