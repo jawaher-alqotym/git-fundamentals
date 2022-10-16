@@ -62,8 +62,26 @@ by doing so, all existing branches will be displayed. This step helps us checkin
 <br> `$ git push origin --delete B` \
 by doing so, the branch **B** will be deleted. 
 
-# reading the git history
-## git log, git log oneline, git log oneline graph, git diff
+# Reading the Git History
+
+## Git Log
+Each branch has a history of commits to check them you can run the command: `$ git log ` .It lists the details of all the commits made in the repository starting with most recent commit first. The details will include a unique identifier called a **hash**  which is written as a 40-character hexadecimal string like `7c35a3ce607a14953f070f0f83b5d74c2296ef93`. The details will also have the author's name and email, the date and the commit message.
+
+###  git log --oneline
+
+There are other various options to the git log command that are very useful. First, the `$ git log --oneline` command it is very useful when there is a lot of commits, it would view each commit on a single line with a brief description which will show the first seven characters of the commit's hash and the commit message. 
+
+### git log --graph
+
+Another useful command is `$ git log --graph`  it shows the branch and merge history as a text-based graphical representation on the left hand side of the output. You can combine this command with 
+--oneline option `$ git log --oneline  --graph `. 
+
+## Git Diff
+
+Another command for reading the history is `$ git log diff`  it is used to see the difference between your working tree and your staging area when you want to know exactly what has been changed inside the files it shows the exact lines added and removed.
+
+
+
 
 # merging
 ## fast forword
