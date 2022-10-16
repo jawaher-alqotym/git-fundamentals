@@ -28,6 +28,15 @@ Now let’s look at the scenario after Git:
 
 # Git Init
 
+git init is one way to start a new project with Git. To start a repository, use git init .
+To initialize a repository, Git creates a hidden directory called .git. That directory stores all of the objects and refs that Git uses and creates as a part of your project's history. 
+
+```
+git init
+```
+
+
+
 ## The Three States of Git
 Files in Git can be in one of three following states: WT (working tree), staging, or committed.</br>The fundamental Git workflow is as follows:</br> In your working tree, you alter files. Then you add only those modifications to the staging area and lastly when you commit, the files in the staging area are taken as-is and permanently stored in your Git directory.
 
