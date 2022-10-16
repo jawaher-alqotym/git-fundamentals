@@ -9,7 +9,7 @@ Git thinks of its data more like a series of snapshots of a miniature filesystem
 # Git Init
 
 ## The Three States of Git
-Files in Git can be in one of three following states: WT (working tree), staging, or committed.
+Files in Git can be in one of three following states: WT (working tree), staging, or committed.</br>The fundamental Git workflow is as follows:</br> In your working tree, you alter files. Then you add only those modifications to the staging area and lastly when you commit, the files in the staging area are taken as-is and permanently stored in your Git directory.
 
 ### 1) Working Tree
 
