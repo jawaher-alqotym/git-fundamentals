@@ -96,6 +96,11 @@ git add .
 -------------------------------------
 # What’s the difference between git and github
 
+Git is a free, open-source distributed version control tool that may be used for both small and big projects. Git was created to make it easier for programmers and developers to collaborate.
+
+GitHub is a central repository and cloud-based service that allows developers to store and manage their code in the cloud, as well as track and control modifications.
+
+
 
 
 
