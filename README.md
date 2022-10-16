@@ -5,7 +5,7 @@
 
 # Git Init
 
-## The Three Steps of git
+## The Three States of Git
 
 ### 1) WT
 *Git Status link
