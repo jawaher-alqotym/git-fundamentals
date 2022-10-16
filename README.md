@@ -12,6 +12,10 @@ Before diving deep, let’s explain a scenario before Git:
 
 - There was no communication between any of the developers
 
+<img width="398" alt="Screen Shot 1444-03-20 at 1 10 56 PM" src="https://user-images.githubusercontent.com/96193859/196031114-6891f996-618c-4a10-9447-090a13a64b06.png">
+
+
+
 *files and people
 
 
