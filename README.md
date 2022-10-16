@@ -19,6 +19,8 @@
 ------------------------------------
 
 # Branch
+- What is Branching?
+    - Unlike other VCS, Git has a lightweight method of creating a branch.
 
 ## create
 
