@@ -41,6 +41,10 @@ git add .
 
 ### 3) DB: Git Commit
 
+Git keeps the object database and metadata for your project in the Git directory. When you clone a repository from another machine, this is what gets copied because it is the most crucial component of Git.
+```
+git commit -m 'messege'
+```
 ## git status
 
 ------------------------------------
