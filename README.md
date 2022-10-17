@@ -92,11 +92,21 @@ git add .
 
 # git push/pull
 
+The git pull command downloads changes from a remote repository and saves them to a local repository. It combines changes from upstream into your local repository.
+
+```
+git pull
+```
+Git push is a command that pushes your local modifications to a central repository.
+
+```
+git push
+```
 
 -------------------------------------
 # What’s the difference between git and github
 
-Git is a free, open-source distributed version control tool that may be used for both small and big projects. Git was created to make it easier for programmers and developers to collaborate.
+Git is a version control system that lets you manage and keep track of your source code history.
 
 GitHub is a central repository and cloud-based service that allows developers to store and manage their code in the cloud, as well as track and control modifications.
 
