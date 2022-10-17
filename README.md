@@ -88,6 +88,12 @@ git add .
 
 # connecting to git hub
 
+# What’s the difference between git and github
+
+Git is a version control system that lets you manage and keep track of your source code history.
+
+GitHub is a central repository and cloud-based service that allows developers to store and manage their code in the cloud, as well as track and control modifications.
+
 # git clone
 
 git clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
@@ -110,12 +116,6 @@ git push
 ```
 
 -------------------------------------
-# What’s the difference between git and github
-
-Git is a version control system that lets you manage and keep track of your source code history.
-
-GitHub is a central repository and cloud-based service that allows developers to store and manage their code in the cloud, as well as track and control modifications.
-
 
 
 
