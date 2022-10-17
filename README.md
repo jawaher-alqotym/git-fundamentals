@@ -79,6 +79,10 @@ git status
 GitHub is a website and cloud-based service that allows developers to store, manage, and track changes to their work and collaborate.
 # connecting to git hub
 
+To access GitHub you must do it by authenticating to GitHub, you can securely access your account's resources, using different credentials depending on where you authenticate.
+Personal access tokens (PATs) are an alternative to passwords for GitHub authentication when using the GitHub API.
+This also has the added benefit of raising your rate limit. You will be limited to 60 requests per hour if you do not authenticate. You can make up to 5,000 requests per hour if you authenticate.
+
 # git clone
 
 # git push/pull
@@ -86,7 +90,7 @@ GitHub is a website and cloud-based service that allows developers to store, man
 
 -------------------------------------
 # What’s the difference between git and github
-Git is a version control system that allows you to manage and track the history of your work. While GitHub is a cloud-hosted service that allows you to manage Git repositories.
+
 
 
 
