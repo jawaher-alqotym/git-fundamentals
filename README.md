@@ -61,7 +61,16 @@ git add .
 
 ### 3) DB: Git Commit
 
+Git keeps the object database and metadata for your project in the Git directory. When you clone a repository from another machine, this is what gets copied because it is the most crucial component of Git.
+```
+git commit -m 'messege'
+```
 ## git status
+
+The git status command shows the current state of the working directory and staging area. It shows you which changes have been staged and which have not.
+```
+git status
+```
 
 ------------------------------------
 
@@ -87,13 +96,20 @@ git add .
 --------------------------------------
 # github
 
+GitHub is a website and cloud-based service that allows developers to store, manage, and track changes to their work and collaborate.
 # connecting to git hub
+
+
+To access GitHub you must do it by authenticating to GitHub, you can securely access your account's resources, using different credentials depending on where you authenticate.
+Personal access tokens (PATs) are an alternative to passwords for GitHub authentication when using the GitHub API.
+This also has the added benefit of raising your rate limit. You will be limited to 60 requests per hour if you do not authenticate. You can make up to 5,000 requests per hour if you authenticate.
 
 # What’s the difference between git and github
 
 Git is a version control system that lets you manage and keep track of your source code history.
 
 GitHub is a central repository and cloud-based service that allows developers to store and manage their code in the cloud, as well as track and control modifications.
+
 
 # git clone
 
