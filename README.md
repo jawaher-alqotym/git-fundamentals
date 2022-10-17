@@ -78,15 +78,21 @@ Another useful command is `$ git log --graph`  it shows the branch and merge his
 
 ## Git Diff
 
-Another command for reading the history is `$ git log diff`  it is used to see the difference between your working tree and your staging area when you want to know exactly what has been changed inside the files it shows the exact lines added and removed.
+Another command for reading the history is `$ git diff`  it is used to see the difference between your working tree and your staging area when you want to know exactly what has been changed inside the files it shows the exact lines added and removed.
 
 
+# Merging
+Git merging combines commit's sequences  into one unified history of commits. There are two main ways Git will merge: Fast Forward and Three way.
 
+## Fast Forward 
+After creating a new branch **A**  and doing some commits now you want to merge the work with your main branch, in this case you only need to switch back to the main branch  `$ git checkout main ` and merge from there,  `$ git merge A` , then Git simply moves the pointer forward to the last commit in branch A. 
 
-# merging
-## fast forword
-## three way
-### conflict
+## Three Way
+
+Suppose you created another branch **B** and while working on it the main branch progresses so it has some commits ahead from your branch **B**. Then when you are done from branch **B** you want to merge the work back with main. Git will create a new snapshot that results from this three-way merge and automatically creates a new commit that points to it. This is referred to as a merge commit, and is special in that it has more than one parent.  First checkout to branch main `$ git checkout main ` then merge it with branch **B** `$ git merge main ` 
+
+### Conflicts
+Occasionally, this process doesn’t go smoothly. If you changed the same part of the same file differently in the two branches you’re merging in this case your branch main and branch, therefore Git will pause the commit while you resolve the conflict. To check which files are unmerged because of the conflict run `$ git status ` . To resolve the conflict open the file with that has the conflict, Git will indicate the changes pointing out what the  caused the conflict so you can solve them manually. After resolving the conflict commit it. 
 
 # tags
 - Tagging is used to tag important commits that are already in the repo history. Tags can be used to specify the different versions of a software during the development process.
