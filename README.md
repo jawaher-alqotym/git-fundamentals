@@ -76,6 +76,7 @@ git status
 --------------------------------------
 # github
 
+GitHub is a website and cloud-based service that allows developers to store, manage, and track changes to their work and collaborate.
 # connecting to git hub
 
 # git clone
@@ -85,7 +86,7 @@ git status
 
 -------------------------------------
 # What’s the difference between git and github
-
+Git is a version control system that allows you to manage and track the history of your work. While GitHub is a cloud-hosted service that allows you to manage Git repositories.
 
 
 
