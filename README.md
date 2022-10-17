@@ -113,7 +113,7 @@ GitHub is a central repository and cloud-based service that allows developers to
 
 # git clone
 
-git clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
+git clone (download) a repository that already exists on GitHub, including all of the files and commits.
 
 ```
 git clone [url]
