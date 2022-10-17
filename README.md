@@ -12,13 +12,14 @@ Before diving deep, let’s explain a scenario before Git:
 <p align="center">
 <img width="398" alt="Screen Shot 1444-03-20 at 1 10 56 PM" src="https://user-images.githubusercontent.com/96193859/196031114-6891f996-618c-4a10-9447-090a13a64b06.png">
 </p>
+
 Now let’s look at the scenario after Git:
 - Every developer has an entire copy of the code on their local systems
 - Any changes made to the source code can be tracked by others
 - There is regular communication between the developer
-
+<p align="center">
 <img width="413" alt="Screen Shot 1444-03-20 at 12 41 09 PM" src="https://user-images.githubusercontent.com/96193859/196031191-d5a50599-534a-4f6e-827c-d51b996477b5.png">
-
+</p>
 
 
 
