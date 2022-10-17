@@ -94,13 +94,13 @@ Suppose you created another branch **B** and while working on it the main branch
 ### Conflicts
 Occasionally, this process doesn’t go smoothly. If you changed the same part of the same file differently in the two branches you’re merging in this case your branch main and branch, therefore Git will pause the commit while you resolve the conflict. To check which files are unmerged because of the conflict run `$ git status ` . To resolve the conflict open the file with that has the conflict, Git will indicate the changes pointing out what the  caused the conflict so you can solve them manually. After resolving the conflict commit it. 
 
-# tags
+# Tags
 - Tagging is used to tag important commits that are already in the repo history. Tags can be used to specify the different versions of a software during the development process.
 
 ## List Tags
 - To show all the tags, the following command is used:
 <br> `$ git tag` \
-by doing so, all tags will be listed in alphabetical order.
+by doing so, all tags will be listed in alphabetical order. \
 *OR*
 - To show the tags of a certain pattern or series, use the following command:
 <br> `$ git tag -l "v1.2.0*"` \
