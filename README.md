@@ -89,6 +89,47 @@ Another command for reading the history is `$ git log diff`  it is used to see t
 ### conflict
 
 # tags
+- Tagging is used to tag important commits that are already in the repo history. Tags can be used to specify the different versions of a software during the development process.
+
+## List Tags
+- To show all the tags, the following command is used:
+<br> `$ git tag` \
+by doing so, all tags will be listed in alphabetical order.
+*OR*
+- To show the tags of a certain pattern or series, use the following command:
+<br> `$ git tag -l "v1.2.0*"` \
+by doing so, all tags that starts with **v1.2.0** will be listed.
+
+## Create Tags
+- Git has two type of tags:
+    1. lightweight tags 
+        - a pointer at a certain commit, so it is a file storing the commit checksum.
+        - To create a lightweight tags, use the command:
+        <br> `$ git tag v1.3.0` \
+        by doing so, the tag **v1.3.0** will be created.
+    2. annotated tags
+        - an object stored in git database, containing more information other than the commit checksum such as tagging message, tagger name, email, and date.
+        - To create an annotated tags, use **-a** with tag command:
+        <br> `$ git tag -a v1.5 -m "the tagging message you want"` \
+        by doing so, a tag named v1.5 with a message you specify will be created.
+## Share Tags 
+- Tags are created locally and can be shared to the remote server only with the following command:
+<br> `$ git push origin v1.5` \
+by writing origin after the push command, the remote server will contain the previously created tag **v1.5**.
+        
+
+## Delete Tags
+- To delete a tag locally, run the following command:
+<br> `$ git tag -d v2.0` \
+by doing so, the local tag **v2.0** will be deleted.
+- To delete a tag on the remote server:
+<br> `$ git push origin --delete v2.0` \
+by doing so, the remote tag **v2.0** will be deleted.
+
+## Checkout Tags
+- To checkout a tag, use the command:
+<br> `$ git checkout v3.9.0` \
+by doing so, you will be able to view the versions of files that **v3.9.0** is pointing to.
 
 --------------------------------------
 # github
