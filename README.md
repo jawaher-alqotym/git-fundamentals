@@ -47,6 +47,11 @@ git commit -m 'messege'
 ```
 ## git status
 
+The git status command shows the current state of the working directory and staging area. It shows you which changes have been staged and which have not.
+```
+git status
+```
+
 ------------------------------------
 
 # Branch
