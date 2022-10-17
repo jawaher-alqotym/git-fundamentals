@@ -22,7 +22,7 @@ Now let’s look at the scenario after Git:
 
 
 
-*files and people
+
 
 
 
@@ -89,6 +89,12 @@ git add .
 # connecting to git hub
 
 # git clone
+
+git clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits.
+
+```
+git clone [url]
+```
 
 # git push/pull
 
